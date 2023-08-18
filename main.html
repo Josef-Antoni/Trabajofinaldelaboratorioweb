@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-Informaticat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS/details.css">
+</head>
+<body>
+
+    <header>
+        <div id="log">
+            <img class="img" src="images/logo color.png" alt="...">
+            
+            <div id="search">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">🔍︎</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+                </div>
+            </div>
+
+            <ul id="home-options">
+                <li class="sesion"><a href="#">Iniciar sesion</a></li>
+                <li class="car"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg></a></li>
+                <li class="main"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></a></li>
+            </ul>
+
+        </div>
+
+        <nav>
+            <ul id="options">
+                <li><a href="#">Novedades</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Soporte tecnico</a></li>
+                <li><a href="#">Nosotros</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/transicion 01.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/transicion 02.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/transicion 03.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div id="decoration">
+            <div class="seccion">
+                <h4>Equipos<br>tecnologicos</h4>
+            </div>
+        </div>
+    </section>
+    
+    <article>
+        <div id="products_row_01">
+            <img class="product" src="images/w230.png" alt="">
+            <div class="text">
+                <h4><a href="#">ROG Strix G15 (2022)<br>
+                S/. 4,799</a></h4>
+                <nav id="price">
+                    <ul >
+                        <li>Ahorro S/. 1,200</li>
+                        <li class="after">S/. 5,999</li>
+                    </ul>
+                </nav>
+            </div>
+        
+        <div>
+            <img class="product" src="images/w230 (1).png" alt="">
+            <div class="text">
+                <h4><a href="#">ROG Strix G16 (2023)<br>
+                S/. 8,899</a></h4>
+                <nav id="price">
+                    <ul>
+                        <li>Ahorro S/. 1,100</li>
+                        <li class="after">S/. 9,999</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div>
+            <img class="product" src="images/w230 (2).png" alt="">
+            <div class="text">
+                <h4><a href="#">ROG Zephyrus G14 (2023)<br>
+                S/. 7,999</a></h4>
+                <nav  id="price">
+                    <ul>
+                        <li>Ahorro S/. 600</li>
+                        <li class="after">S/. 8,599</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div>
+            <img class="product" src="images/w230 (3).png" alt="">
+            <div class="text">
+                <h4><a href="#">ROG G15 Advantage Edition<br>
+                S/. 7,790</a></h4>
+                <nav id="price">
+                    <ul>
+                        <li>Ahorro S/. 305</li>
+                        <li class="after">S/. 8,095</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </article>    
+
+    <article>
+        <div id="products_row_01">
+            <div>
+                <img class="product" src="images/w230 (4).png" alt="">
+                <div class="text">
+                    <h4><a href="#">ROG Zephyrus G14<br>
+                    S/. 4,499</a></h4>
+                    <nav id="price">
+                        <ul >
+                            <li>Ahorro S/. 476</li>
+                            <li class="after">S/. 4,975</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <img class="product" src="images/w230 (5).png" alt="">
+                <div class="text">
+                    <h4><a href="#">ROG Zephyrus G15 (2022)<br>
+                    S/. 7,297</a></h4>
+                    <nav id="price">
+                        <ul>
+                            <li>Ahorro S/. 1,102</li>
+                            <li class="after">S/. 8,399</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <img class="product" src="images/w230 (6).png" alt="">
+                <div class="text">
+                    <h4><a href="#">ROG Zephyrus Duo 16 (2022)<br>
+                    S/. 16,355</a></h4>
+                    <nav  id="price">
+                        <ul>
+                            <li>Ahorro S/. 1,644</li>
+                            <li class="after">S/. 17,999</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div>
+                <img class="product" src="images/w230 (2).png" alt="">
+                <div class="text">
+                    <h4><a href="#">ROG Strix G15<br>
+                    S/. 6,999</a></h4>
+                    <nav id="price">
+                        <ul>
+                            <li>Ahorro S/. 500</li>
+                            <li class="after">S/. 7,499</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+
+    </article>
+
+    <aside>
+        <div id="decoration-2">
+            <div class="seccion-2">
+                <h4>Servicios<br>de informatica</h4>
+            </div>
+        </div>
+
+        <Card>
+            <div class="card01" style="width: 18rem;">
+                <img src="images/Rectangle 83 (1).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Creacion de paginas web.</h5>
+                  <p class="card-text">¿Deseas tener tu propia pagina web?<br>Tenemos a los mejores diseñadores y te ofrecemos una atencion personalizada.</p>
+                  <a href="#" class="btn btn-primary">Mas informacion.</a>
+                </div>
+              </div>
+        </Card>
+
+        <Card>
+            <div class="card02" style="width: 18rem;">
+                <img src="images/Rectangle 88 (1).png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"><br>Mantenimiento de equipo tecnologicos.</h5>
+                  <p class="card-text">Tenemos al personal capacitado para lidiar con tus probleams tecnologicos.</p>
+                  <a href="#" class="btn btn-primary">Mas informacion.</a>
+                </div>
+              </div>
+        </Card>
+
+        <Card>
+            <div class="card03" style="width: 18rem;">
+                <img src="images/Rectangle 91.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Creacion y adiministracion de servidores</h5>
+                  <p class="card-text">Te ayudamos a crear tus propios servidores; o si lo prefieres, lo hacemos por ti.</p>
+                  <a href="#" class="btn btn-primary">Mas informacion.</a>
+                </div>
+              </div>
+        </Card>
+
+        <Card>
+            <div class="card04" style="width: 18rem;">
+                <img src="images/Rectangle 92.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Gestion y administracion de proyectos.</h5>
+                  <p class="card-text">Ayudamos a que nuestros clientes tengan un buen asesoramiento y administracion en sus proyectos.</p>
+                  <a href="#" class="btn btn-primary">Mas informacion.</a>
+                </div>
+              </div>
+        </Card>
+    </aside>
+
+    <footer id="finaly">
+            <div class="text01">
+                <h3 class="gmail">mrcat2023@gmail.com</h3>
+                <h3 class="contact">Tel: + 51 995 809 644</h3>
+                <h2>© 2023 by Josef Antoni Meza Marlo</h2>
+            </div>
+            <div class="line"></div>
+            <div class="red">
+                <img src="images/socials (3).png" alt="">
+                <img src="images/socials (2).png" alt="">
+                <img src="images/socials (1).png" alt="">
+            </div>
+            
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
